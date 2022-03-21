@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ArrayList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ArrayList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
     <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>

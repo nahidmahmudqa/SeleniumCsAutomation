@@ -7,8 +7,9 @@ namespace CSharpFundas
         String name;
 
         //Method default Constructor
-        public Program(String name)
+        public ThisConstructor(String name)
         {
+
             this.name = name;
         }
         public void getName()
@@ -22,12 +23,10 @@ namespace CSharpFundas
         static void Main(string[] args)
 
         {
-            Program p = new Program("Nahid");
+            ThisConstructor p = new ThisConstructor("Nahid");
             p.getData();
             p.SetData();
-            p.getName();
-
-            String name = "Nahid";
+          
 
         }
     }

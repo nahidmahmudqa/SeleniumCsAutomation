@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundas", "CSharpFundas\CSharpFundas.csproj", "{4CA195FB-9A4D-4C6F-9488-F1AE87598D26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayLoop", "ArrayLoop\ArrayLoop.csproj", "{80A3C096-78F3-4A60-8216-E987A47C732E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayLoop", "ArrayLoop\ArrayLoop.csproj", "{80A3C096-78F3-4A60-8216-E987A47C732E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumLearning", "SeleniumLearning\SeleniumLearning.csproj", "{8A273078-E1A0-4370-94D6-0AE8CD8FE0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{80A3C096-78F3-4A60-8216-E987A47C732E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A3C096-78F3-4A60-8216-E987A47C732E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A3C096-78F3-4A60-8216-E987A47C732E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A273078-E1A0-4370-94D6-0AE8CD8FE0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A273078-E1A0-4370-94D6-0AE8CD8FE0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A273078-E1A0-4370-94D6-0AE8CD8FE0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A273078-E1A0-4370-94D6-0AE8CD8FE0DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
