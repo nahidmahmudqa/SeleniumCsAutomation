@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using WebDriverManager.DriverConfigs.Impl;
 
 namespace SeleniumLearning
@@ -18,13 +19,24 @@ namespace SeleniumLearning
             //Chromedriver.exe on chrome browser
 
             new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
-            //WeDriverManager-(
+
+            //[namespace.class.method of this class]
 
             driver = new ChromeDriver();
 
-            driver.Manage().Window.Maximize();  // without bracket is an property
 
-            // I means interface (IWebDriver)
+            /* new WebDriverManager.DriverManager().SetUpDriver(new FirefoxConfig());
+             * 
+             * new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+            WeDriverManager-(
+
+            driver =new FirefoxDriver();
+            driver new = edgeDriver()
+            */
+
+            driver.Manage().Window.Maximize(); /* without bracket is an property
+
+            I means interface (IWebDriver)*/
         
         }
 
@@ -33,11 +45,12 @@ namespace SeleniumLearning
         {
             driver.Url = "https://nhdrasel.wordpress.com";
             TestContext.Progress.WriteLine(driver.Url);
+           
             driver.Close(); // Brackets () means method 
 
 
              
-            driver.Quit();  //close all pages [] | 2 or more
+            //driver.Quit();  //close all pages [] | 2 or more
         }
     }
 }
