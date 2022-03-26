@@ -45,11 +45,12 @@ namespace SeleniumLearning
         {
             driver.Url = "https://nhdrasel.wordpress.com";
             TestContext.Progress.WriteLine(driver.Url);
-           
+        }
+        [TearDown]
+        public void Teardown()
+        {
             driver.Close(); // Brackets () means method 
-
-
-             
+            
             //driver.Quit();  //close all pages [] | 2 or more
         }
     }
